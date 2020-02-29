@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hodgoong/slack-app-exepron-integration/issues"
   },
-  "homepage": "https://github.com/hodgoong/slack-app-exepron-integration#readme"
+  "homepage": "https://github.com/hodgoong/slack-app-exepron-integration#readme",
+  "dependencies": {
+    "@slack/web-api": "^5.7.0"
+  }
 }
