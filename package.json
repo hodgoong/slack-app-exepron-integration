@@ -4,7 +4,8 @@
   "description": "A Slack App which communicates with Exepron RESTful API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ngrok http 3000 & node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/hodgoong/slack-app-exepron-integration#readme",
   "dependencies": {
+    "@slack/events-api": "^2.3.1",
+    "@slack/interactive-messages": "^1.4.1",
     "@slack/web-api": "^5.7.0"
   }
 }
+
