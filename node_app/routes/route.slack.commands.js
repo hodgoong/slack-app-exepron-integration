@@ -1,6 +1,5 @@
-// Slack slash command handler
-const { slackSlashCommand } = require('../controller/controller.slack.commands');
 const bodyParser = require('body-parser');
+const { slackSlashCommand } = require('../controller/controller.slack.commands');
 
 module.exports = function (app) {
     app.route('/slack/commands')
